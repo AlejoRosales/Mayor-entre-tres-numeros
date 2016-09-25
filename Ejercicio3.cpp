@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 
 int main(int argc, char *argv[]) {
 	int x, y, z;
@@ -31,6 +32,7 @@ int main(int argc, char *argv[]) {
 			printf ("\n\nEl Numero %d es el mayor ",z);
 		}
 	}
-
+	
+	getch();
 	return 0;
 }
